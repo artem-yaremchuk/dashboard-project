@@ -1,15 +1,39 @@
-.title {
+.section {
+  width: 100%;
+}
+.section .title {
+  color: teal;
+}
+.section .text {
+  font-size: 14px;
+}
+
+.button {
+  background: teal;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.button:hover, .button:focus {
+  color: blue;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+}
+.button-icon:hover {
+  width: 50px;
+  height: 50px;
+}
+.button:hover .button-icon {
+  font-size: 20px;
+}
+
+.button-label {
   font-size: 16px;
 }
-
-.subtitle {
-  font-size: 10px;
-}
-
-.small-btn {
-  font-size: 10px;
-  color: black;
-  background-color: lightblue;
+.button:hover .button-label {
+  font-size: 20px;
 }
 
 /* == END == */
