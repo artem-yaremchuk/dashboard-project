@@ -3,8 +3,11 @@
 // @use "layout";
 // @use "components";
 
-@use "--examples--/lesson-5/variables";
-@use "--examples--/lesson-5/button";
+// @use "--examples--/lesson-5/variables";
+// @use "--examples--/lesson-5/button";
+
+@use "--examples--/lesson-6/nesting";
+@use "--examples--/lesson-6/ampersand";
 
 /* == END == */
 @use "--examples--/lesson-5/base";
