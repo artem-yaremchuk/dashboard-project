@@ -1,48 +1,13 @@
-.square-avatar {
-  width: 100px;
-  height: 100px;
-}
-
-.circle-avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
 .title {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.4;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.03em;
   text-align: center;
 }
 
-.p-8 {
-  padding: 8px;
-}
-
-.p-16 {
-  padding: 16px;
-}
-
-.p-20 {
-  padding: 20px;
-}
-
-.margin-sm {
-  margin: 24px;
-}
-
-.margin-md {
-  margin: 32px;
-}
-
-.margin-lg {
-  margin: 36px;
-}
-
-.margin-xl {
-  margin: 68px;
+.container {
+  width: 62.5rem;
 }
 
 /* == END == */
